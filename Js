@@ -1,0 +1,10 @@
+const display = document.getElementById('display');
+function cleardata() {
+    display.value ="";
+}
+function addnumber(value){
+    display.value +=value;
+}
+ function result(){
+    display.value= eval(display.value)
+ }
